@@ -1,38 +1,134 @@
-<h1>2018 Tradeshows</h1>
+<h1 style="font-weight:700;font-size:xx-large;color:#0056a0">2018 Tradeshows</h1>
+<br>
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/ecrm.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>ECRM: Home Health</h1>
+<h2>January 29 - February 1</h2>
+<p>Westin Hilton Head Island Resort &amp; Spa<br /> 2 Grasslawn Avenue,<br /> Hilton Head Island, SC 29928</p>
+</div>
+</div>
 
-<h2>ECRM: Home Health<h2>
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/ambiente.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>Ambiente</h1>
+<h2>February 9 - 13</h2>
+<p>Booth 6.0, A60<br>Frankfurt Fair Messe Frankfurt Venue GmbH,<br /> Ludwig-erhard-Anlage 1,<br /> 60327 Frankfurt am Main, Germany</p>
+</div>
+</div>
 
-  <div class="tradeshow">
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/houseware.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>Houseware</h1>
+<h2>March 10 - 13</h2>
+<p>Booth N6906<br>McCormick Place,<br /> 2301 S. Lake Shore Drive,<br /> Chicago, IL 60616</p>
+</div>
+</div>
 
-    <div class="showimg">
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/asd1.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>ASD March</h1>
+<h2>March 11 - 14</h2>
+<p>Booth SU2622<br>Las Vegas Convention Center,<br /> 3150 Paradise Rd,<br /> Las Vegas, NV 89109</p>
+</div>
+</div>
 
-    </div>
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/hkhouseware.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>Hong Kong Houseware</h1>
+<h2>April 20 - 23</h2>
+<p>Booth 3G-C20<br>Hong Kong Convention and Exhibition Centre,<br /> 1 Expo Drive,<br /> Wan Chai, Hong Kong</p>
+</div>
+</div>
 
-    <div class="showdesc">
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/hardware.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>National Hardware Show</h1>
+<h2>May 8 - 10<br /></h2>
+<p>Booth 4412<br>Las Vegas Convention Center - North Hall,<br /> 3150 Paradise Rd,<br /> Las Vegas, NV 89109</p>
+</div>
+</div>
 
-    </div>
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/asd2.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>ASD August</h1>
+<h2>August 29 - September 1<br /></h2>
+<p>Booth SU2622<br>Las Vegas Convention Center,<br /> 3150 Paradise Rd,<br /> Las Vegas, NV 89109</p>
+</div>
+</div>
 
-  </div>
-
+<div class="tradeshow">
+<div class="showimg"><img alt="" class="img" src="{{media url="wysiwyg/tradeshows/megashow.jpg"}}" /></div>
+<div class="showdesc">
+  <h1>Hong Kong Mega Show Part 1</h1>
+<h2>October 20 - 23</h2>
+<p>Hall 3E, C12-14<br>Hong Kong Convention and Exhibition Centre,<br /> 1 Expo Drive,<br /> Wan Chai, Hong Kong</p>
+</div>
+</div>
 <style>
-
 .tradeshow{
   width:100%;
   margin-top:1%;
-  margin-bottom:1%;
+  margin-bottom:5%;
+  position:relative;
+}
+
+.tradeshow:after { 
+    content: " ";
+    display: block;
+    clear: both;
 }
 
 .showimg{
   display:block;
   float:left;
-  width:58%;
-  margin-right:2%;
+  width:50%;
+  margin-right:4%;
+}
+
+.img{
+  width:100%;
 }
 
 .showdesc{
   display: block;
   float:left;
-  width:40%;
+  width:46%;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+.showdesc h1{
+  font-size: x-large;
+  font-weight:600;
+}
+
+.showdesc h2{
+  color:#0056a0;
+  font-weight:600;
+}
+
+.showdesc p{
+  font-size:16px;
+}
+
+@media(max-width:767px){
+.showimg{
+  width:100%;
+  margin-right:0;
+}
+.showdesc{
+  position:relative;
+  margin-top:5%;
+  width:100%;
+}
 }
 
 </style>

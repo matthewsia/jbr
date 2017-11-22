@@ -1,7 +1,7 @@
 <div style="margin:auto;display:block;float:left;">
-<img alt="" src="{{media url="wysiwyg/contact-img1.jpg"}}" style="display:block;float:left; margin-bottom:20px;" />
+<img alt="" src="{{media url="wysiwyg/contact-img1.jpg"}}" class="imgbox" />
 
-<div style="display:block; float:left; margin-left: 20px; width: 280px;">
+<div class="textbox">
 <h2><strong>This is a B2B website.</strong></h2>
 <p>
 Retailers and distributors can also gain access to the complete line of Jobar products by registering on this business-to-business website.
@@ -10,3 +10,26 @@ Retailers and distributors can also gain access to the complete line of Jobar pr
 Consumers who are interested in purchasing any of our products can locate a retailer by contacting our customer service specialists below.
 </p>
 </div>
+
+</div>
+
+<style>
+.imgbox{
+  display:block;float:left; margin-bottom:20px; width: 65%;
+}
+.textbox{
+  display:block; float:left; margin-left: 2%; width: 33%;
+}
+
+@media (max-width:767px){
+  .imgbox{
+    width:100%;
+  }
+  .textbox{
+    width:100%;
+    margin:0;
+    padding:2px;
+  }
+}
+
+</style>
